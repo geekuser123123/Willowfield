@@ -1,0 +1,8 @@
+// Brand mark — an arched window: a willow tree over an open field at golden hour.
+/** Logo mark SVG. `id` must be unique per page instance. */
+export function markSvg(id = 'wf', cls = 'brand__mark') {
+  return `<svg class="${cls}" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A322B"/><stop offset="1" stop-color="#2A2420"/></linearGradient><clipPath id="${id}c"><path d="M5 45V22a19 19 0 0 1 38 0v23Z"/></clipPath></defs><path d="M5 45V22a19 19 0 0 1 38 0v23Z" fill="url(#${id})"/><g clip-path="url(#${id}c)"><circle cx="36" cy="16" r="3.8" fill="#E0A43A"/><path d="M0 37.5q24-4.5 48 0V48H0Z" fill="#4F6B3A"/><path d="M0 42q24-3.5 48 0" stroke="#7C9A55" stroke-width="1.3" fill="none"/><path d="M22 37c.5-4 .3-8.5-1-13" stroke="#E8D9B5" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M21.6 27.5c2-2.4 4.4-3.8 7-4.2M21.2 26c-2-1.8-4.2-2.6-6.6-2.6" stroke="#E8D9B5" stroke-width="1.6" fill="none" stroke-linecap="round"/><ellipse cx="21.5" cy="18.5" rx="12.5" ry="6" fill="#C8D8A8"/><g stroke="#C8D8A8" stroke-width="2.2" fill="none" stroke-linecap="round"><path d="M10 19.5q-1.8 6-1 13"/><path d="M13.2 22q-1.4 5.5-.8 11.5"/><path d="M16.6 23.4q-.8 5.4-.4 9.6"/><path d="M26.6 23.4q.8 5.4.4 9.6"/><path d="M30 22q1.4 5.5.8 11.5"/><path d="M33.2 19.5q1.8 6 1 13"/></g></g><path d="M5 45V22a19 19 0 0 1 38 0v23Z" fill="none" stroke="#E0A43A" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+}
+
+export const markFile = () =>
+  markSvg('g', 'mark').replace('<svg class="mark"', '<svg xmlns="http://www.w3.org/2000/svg"').replace(' aria-hidden="true" focusable="false"', '');
