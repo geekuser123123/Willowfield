@@ -10,8 +10,8 @@ Use this **after** the website is live and Search Console is verified.
 
 ## Willowfield (Charlotte, NC — Fairview Rd) notes
 
-- **Name:** **Willowfield**, exactly as on the website. File a **Fictitious Business Name** statement with the
-  Mecklenburg County Register of Deeds (Assumed Business Name certificate) (and complete the newspaper publication) before creating the profile.
+- **Name:** **Willowfield**, exactly as on the website. File an **Assumed Business Name certificate** with the
+  Mecklenburg County Register of Deeds before creating the profile (if "Willowfield" isn't the legal name).
 - **One profile per business and location.** Piedwell (Charlotte) is a separate business; keep Willowfield's
   name, photos and branding distinct, and don't create a second profile at this address.
 - **Business type:** **Local store / storefront**: clients visit the office during the posted

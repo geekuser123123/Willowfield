@@ -21,7 +21,7 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 | Item | Notes |
 |---|---|
 | **Contact form (n8n)** | Create the n8n workflow (see `docs/N8N-FORM-SETUP.md`) and put its production webhook URL in `form.webhookUrl` in `site.config.mjs`. Until then the form shows a notice and doesn't send. |
-| **Register the business name** | North Carolina Assumed Business Name certificate with the Mecklenburg County Register of Deeds, then publish it in a local newspaper once a week for 4 weeks. Then set `business.publicNameConfirmed: true`. Check the CA Secretary of State, the USPTO and Google Maps for "Willowfield" conflicts first. |
+| **Register the business name** | File a North Carolina Assumed Business Name certificate with the Mecklenburg County Register of Deeds (if "Willowfield" isn't the legal name of the business). Then set `business.publicNameConfirmed: true`. Check the NC Secretary of State, the USPTO and Google Maps for "Willowfield" conflicts first. |
 
 Optional: `business.geo` with the office's real coordinates.
 

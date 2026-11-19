@@ -24,7 +24,7 @@ export default {
     legalName: null, // PRIVATE — schema only, and only if different from publicName
     publicName: 'Willowfield',
     tagline: 'Solo & Self-Directed 401(k) Plan Support',
-    publicNameConfirmed: false, // true once the Fictitious Business Name is filed (Assumed Business Name certificate, Mecklenburg County Register of Deeds)
+    publicNameConfirmed: false, // true once the Assumed Business Name certificate is filed (Mecklenburg County Register of Deeds)
     owner: null, // optional
     foundingYear: null,
 
