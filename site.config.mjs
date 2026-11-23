@@ -15,7 +15,7 @@
 export default {
   site: {
     url: 'https://willowfield.kevin-c4h.workers.dev', // no trailing slash — confirm after first Cloudflare deploy
-    googleSiteVerification: null, // Search Console HTML-tag "content" value
+    googleSiteVerification: 'Go26qyk12-cph4nVU3uzysiqm-cye8MDBsrdyVs0IHk', // Search Console HTML-tag "content" value
     locale: 'en_US',
     language: 'en-US',
   },
